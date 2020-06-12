@@ -6,9 +6,10 @@ Conception d'une application multi-thread console qui permet de jouer au jeu d�
 L’application permettra a un nombre donné de joueurs ( chaque joueur est un thread ), chacun représenté par 
 un navire et ils doivent parcourir un océan à la recherche des autres pour être le dernier survivant. La vie du navire
 est symbolisée par une valeur C appelée coque, et son endurance par une valeur K appelée kerosene.
-Le jeu fonctionne en tour par tour : durant un tour, (1) chaque joueur déterminela prochaine action à effectuer puis
-en informe le serveur ; (2) ce dernier effectue les actions en fonction de différents critères (priorité par exemple); 
-(3) puis il informe les joueurs de leur nouvel état (nouvelles coordonnées, perte de points de coque ou de kerosene,etc...). 
+Le jeu fonctionne en tour par tour, durant un tour : 
+- chaque joueur déterminela prochaine action à effectuer puis en informe le serveur.
+- ce dernier effectue les actions en fonction de différents critères (priorité par exemple).
+- puis il informe les joueurs de leur nouvel état (nouvelles coordonnées, perte de points de coque ou de kerosene,etc...). 
 Le jeu se termine lorsqu’il ne reste plus qu’un seul survivant, ou si un nombre de tours prédéfini a été atteint.
 
 
