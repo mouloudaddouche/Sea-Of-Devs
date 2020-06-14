@@ -19,7 +19,8 @@ Le jeu se termine lorsqu’il ne reste plus qu’un seul survivant, ou si un nom
 
 
 ## Utilisation
-il suffit de se positionner dans le dossier Project et de lancer la commande : ./SoD fichier.
+il suffit de se positionner dans le dossier Project et de lancer la commande : ./SoD fichier .
+
 fichier est le nom du fichier passé en entré qui est constitué de deux lignes :
 1. la caractérisation de la carte, avec son type, sa taille en longueur et en hauteur.
 2. la caractérisation de la partie, avec le nombre de joueurs, les valeurs initiales de coque et de kerosene et le nombre
